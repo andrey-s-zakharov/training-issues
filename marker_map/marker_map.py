@@ -7,6 +7,7 @@ lat = data.get('LAT')
 lon = data.get('LON')
 elevation = data.get('ELEV')
 
+
 def color_change(elevation):
     if (elevation < 1000):
         return('green')
